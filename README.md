@@ -129,8 +129,11 @@ An intelligent agent built with LangChain, GPT-4, and Geoapify Places API that p
 # 🗂️ Project Structure
 transport_agent/
 │
+
 ├── main.py               # Agent code
+
 ├── requirements.txt      # Dependencies
+
 └── README.md             # Project documentation
 
 # 🔧 Prerequisites
