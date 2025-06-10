@@ -19,15 +19,15 @@ An intelligent travel advisory agent built using LangChain, OpenAI's GPT-3.5, an
 
 ✅ IATA Code Extraction & Date Parsing
 
+
 📁 Project Structure
-plaintext
-Copy
-Edit
 flight_agent/
 │
 ├── main.py               # Entry point of the app (agent + tool setup + input flow)
 ├── requirements.txt      # Dependencies
 └── README.md             # Project documentation
+
+
 🔧 Prerequisites
 Python 3.8+
 
@@ -35,37 +35,33 @@ Amadeus Developer Account: Get API Keys
 
 OpenAI API Key: Get API Key
 
+
 🔐 Environment Variables
 You must set the following environment variables before running:
-
 bash
-Copy
-Edit
+
 export OPENAI_API_KEY="your-openai-api-key"
 export AMADEUS_API_KEY="your-amadeus-api-key"
 export AMADEUS_API_SECRET="your-amadeus-api-secret"
 Or place them in a .env file and load using python-dotenv.
 
+
 🛠️ Installation
 bash
-Copy
-Edit
 # Clone the repo
 git clone https://github.com/yourusername/flight-agent.git
 cd flight-agent
+
 
 # Install dependencies
 pip install -r requirements.txt
 ▶️ Usage
 bash
-Copy
-Edit
 python main.py
-💬 Example Prompt
-vbnet
-Copy
-Edit
-recommend me flights from baltimore to new york on november 23rd, 2024 and return on november 25th, 2024
+
+💬 Example Prompt:
+Recommend me flights from baltimore to new york on november 23rd, 2024 and return on november 25th, 2024
+
 The agent will:
 
 Parse the origin, destination, and dates.
@@ -76,23 +72,19 @@ Translate airline codes to full names.
 
 Display top 5 matching flight options.
 
+
 🧩 How It Works
 LangChain Agent: Routes parsed flight details to a custom flight search tool.
 
 Amadeus Tool: Queries real-time flight data.
 
-OpenAI LLM: Handles:
-
-Natural language parsing (location, dates)
-
-Airline code translation
+OpenAI LLM: Handles: Natural language parsing (location, dates), Airline code translation
 
 ConversationBufferMemory: Maintains contextual memory for multi-turn interactions.
 
 🧪 Sample Output
 yaml
-Copy
-Edit
+
 Airline: Delta Air Lines
 Price: $132.00
 Departure: 2024-11-23T08:15:00
@@ -104,7 +96,8 @@ Return Arrival: 2024-11-25T20:55:00
 Return Duration: 1 hours 10 minutes
 
 ----------------------------------------
-...
+
+
 📦 Dependencies
 LangChain
 
@@ -114,11 +107,14 @@ Amadeus Python SDK
 
 Python Standard Libraries: os, json, re, warnings
 
+
 🛡️ Disclaimer
 This project is for educational and prototyping purposes. Always validate final travel plans with the airline or provider directly.
 
+
 📜 License
 MIT License. See LICENSE for details.
+
 
 🙌 Acknowledgments
 OpenAI
