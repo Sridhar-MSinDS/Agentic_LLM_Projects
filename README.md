@@ -22,6 +22,7 @@ An intelligent travel advisory agent built using LangChain, OpenAI's GPT-3.5, an
 
 📁 Project Structure
 flight_agent/
+
 │
 ├── main.py               # Entry point of the app (agent + tool setup + input flow)
 
