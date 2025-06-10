@@ -1,10 +1,10 @@
 # Agentic_LLM_Project
 An agentic LLM for travel advisory is an AI system that interacts with users, gathers preferences, searches real-time data (flights, hotels, attractions, etc..), and makes decisions or suggestions—mimicking a human travel agent with contextual memory and task execution capabilities.
 
-✈️ AI-Powered Flight Recommendation System
+# ✈️ AI-Powered Flight Recommendation System
 An intelligent travel advisory agent built using LangChain, OpenAI's GPT-3.5, and the Amadeus Travel API, capable of parsing natural language flight queries and returning real-time flight offers.
 
-🚀 Features
+# 🚀 Features
 🧠 Agentic Reasoning via LangChain Agent
 
 💬 Natural Language Understanding using OpenAI GPT-3.5
@@ -20,7 +20,7 @@ An intelligent travel advisory agent built using LangChain, OpenAI's GPT-3.5, an
 ✅ IATA Code Extraction & Date Parsing
 
 
-📁 Project Structure
+# 📁 Project Structure
 flight_agent/
 
 ├── main.py               # Entry point of the app (agent + tool setup + input flow)
@@ -31,7 +31,7 @@ flight_agent/
 
 
 
-🔧 Prerequisites
+# 🔧 Prerequisites
 Python 3.8+
 
 Amadeus Developer Account: Get API Keys
@@ -39,7 +39,7 @@ Amadeus Developer Account: Get API Keys
 OpenAI API Key: Get API Key
 
 
-🔐 Environment Variables
+# 🔐 Environment Variables
 You must set the following environment variables before running:
 bash
 
@@ -52,7 +52,7 @@ export AMADEUS_API_SECRET="your-amadeus-api-secret"
 Or place them in a .env file and load using python-dotenv.
 
 
-🛠️ Installation
+# 🛠️ Installation
 bash
 # Clone the repo
 git clone https://github.com/yourusername/flight-agent.git
@@ -79,7 +79,7 @@ Translate airline codes to full names.
 Display top 5 matching flight options.
 
 
-🧩 How It Works
+# 🧩 How It Works
 LangChain Agent: Routes parsed flight details to a custom flight search tool.
 
 Amadeus Tool: Queries real-time flight data.
@@ -88,7 +88,7 @@ OpenAI LLM: Handles: Natural language parsing (location, dates), Airline code tr
 
 ConversationBufferMemory: Maintains contextual memory for multi-turn interactions.
 
-🧪 Sample Output
+# 🧪 Sample Output
 yaml
 
 Airline: Delta Air Lines
@@ -104,7 +104,7 @@ Return Duration: 1 hours 10 minutes
 ----------------------------------------
 
 
-📦 Dependencies
+# 📦 Dependencies
 LangChain
 
 OpenAI
@@ -114,15 +114,15 @@ Amadeus Python SDK
 Python Standard Libraries: os, json, re, warnings
 
 
-🛡️ Disclaimer
+# 🛡️ Disclaimer
 This project is for educational and prototyping purposes. Always validate final travel plans with the airline or provider directly.
 
 
-📜 License
+# 📜 License
 MIT License. See LICENSE for details.
 
 
-🙌 Acknowledgments
+# 🙌 Acknowledgments
 OpenAI
 
 Amadeus for Developers
