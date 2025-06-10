@@ -114,6 +114,61 @@ Amadeus Python SDK
 Python Standard Libraries: os, json, re, warnings
 
 
+# 🚏 Local Public Transportation Recommendation Agent
+An intelligent agent built with LangChain, GPT-4, and Geoapify Places API that provides nearby public transportation options (bus stops, train stations, etc.) based on user-input locations. It uses natural language input, geocodes locations, and returns transport hubs within a defined radius.
+
+# 🧠 Features
+🌍 Natural language input (e.g., "Show me transport near Central Park, NYC")
+
+📍 Location geocoding via Geoapify
+
+🚉 Fetches nearby public transport hubs (bus, train, tram, etc.)
+
+🧠 Memory-enabled agent using LangChain
+
+# 🗂️ Project Structure
+transport_agent/
+│
+├── main.py               # Agent code
+├── requirements.txt      # Dependencies
+└── README.md             # Project documentation
+
+# 🔧 Prerequisites
+Python 3.8+
+
+API Keys:
+
+OpenAI API
+
+Geoapify API
+
+# 🔐 Environment Variables
+Make sure to set the following in your environment or .env file:
+
+export OPENAI_API_KEY="your-openai-api-key"
+
+export GEOAPIFY_API_KEY="your-geoapify-api-key"
+
+# 🛠️ Installation
+# Clone the repository
+git clone https://github.com/yourusername/transport-agent.git
+cd transport-agent
+
+# Install dependencies
+pip install -r requirements.txt
+
+# 🧾 Sample Output
+
+Transport Hub: Panama
+Categories: public_transport, public_transport.bus
+Address: Panama, National highway 65, Ward 15 Vanasthalipuram, Hyderabad - 500963, Telangana, India
+----------------------------------------
+
+Transport Hub: Vanasthalipuram
+Categories: public_transport, public_transport.bus
+Address: Vanasthalipuram, NH65, Ward 12 Mansoorabad, Hyderabad - 500070, Telangana, India
+----------------------------------------
+
 # 🛡️ Disclaimer
 This project is for educational and prototyping purposes. Always validate final travel plans with the airline or provider directly.
 
