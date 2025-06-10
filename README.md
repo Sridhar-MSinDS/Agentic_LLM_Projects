@@ -24,7 +24,9 @@ An intelligent travel advisory agent built using LangChain, OpenAI's GPT-3.5, an
 flight_agent/
 │
 ├── main.py               # Entry point of the app (agent + tool setup + input flow)
+
 ├── requirements.txt      # Dependencies
+
 └── README.md             # Project documentation
 
 
@@ -41,8 +43,11 @@ You must set the following environment variables before running:
 bash
 
 export OPENAI_API_KEY="your-openai-api-key"
+
 export AMADEUS_API_KEY="your-amadeus-api-key"
+
 export AMADEUS_API_SECRET="your-amadeus-api-secret"
+
 Or place them in a .env file and load using python-dotenv.
 
 
