@@ -162,15 +162,8 @@ pip install -r requirements.txt
 
 # 🧾 Sample Output
 
-Transport Hub: Panama
-Categories: public_transport, public_transport.bus
-Address: Panama, National highway 65, Ward 15 Vanasthalipuram, Hyderabad - 500963, Telangana, India
-----------------------------------------
+<img width="1884" height="821" alt="Screenshot 2025-07-30 145723" src="https://github.com/user-attachments/assets/66986517-23cb-44c8-aaba-137f697b4442" />
 
-Transport Hub: Vanasthalipuram
-Categories: public_transport, public_transport.bus
-Address: Vanasthalipuram, NH65, Ward 12 Mansoorabad, Hyderabad - 500070, Telangana, India
-----------------------------------------
 
 # 🛡️ Disclaimer
 This project is for educational and prototyping purposes. Always validate final travel plans with the airline or provider directly.
